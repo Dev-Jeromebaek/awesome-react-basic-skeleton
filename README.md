@@ -1,6 +1,6 @@
-# Tutorial: How to set up React, Webpack 4, and Babel (2018)
+# React-Basic-Skeleton
 
-# No Create-React-App
+# Set Up React, Webpack 4, and Babel (2018)
 
 > react skeleton
 
@@ -13,6 +13,7 @@
     "babel-preset-stage-2": "^6.24.1",
     "css-loader": "^1.0.0",
     "file-loader": "^2.0.0",
+    "html-webpack-plugin": "^3.2.0",
     "style-loader": "^0.23.0",
     "url-loader": "^1.1.1",
     "webpack": "^4.17.1",
@@ -27,7 +28,7 @@
 
 ## Demo
 
-> https://Dev-JeromeBaek.github.io/awesome-react-skeleton/
+> https://Dev-JeromeBaek.github.io/awesome-react-basic-skeleton/
 
 ## Build Setup
 
@@ -43,7 +44,7 @@ npm run start
 # build for production with minification
 npm run build
 
-# build for production with minification after remove build files.
+# remove build files and build for production with minification.
 npm run clean
 ```
 
@@ -59,7 +60,7 @@ yarn start
 # build for production with minification
 yarn build
 
-# build for production with minification after remove build files.
+# remove build files and build for production with minification.
 yarn clean
 ```
 

@@ -9,7 +9,7 @@
     "start": "webpack-dev-server --config ./webpack.config.js --mode development",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": "git+https://github.com/Dev-JeromeBaek/awesome-react-skeleton.git",
+  "repository": "git+https://github.com/Dev-JeromeBaek/awesome-react-basic-skeleton.git",
   "keywords": [],
   "author": "Dev-JeromeBaek <superior051@icloud.com>",
   "license": "ISC",
@@ -21,9 +21,9 @@
     ]
   },
   "bugs": {
-    "url": "https://github.com/Dev-JeromeBaek/awesome-react-skeleton/issues"
+    "url": "https://github.com/Dev-JeromeBaek/awesome-react-basic-skeleton/issues"
   },
-  "homepage": "https://github.com/Dev-JeromeBaek/awesome-react-skeleton#readme",
+  "homepage": "https://github.com/Dev-JeromeBaek/awesome-react-basic-skeleton#readme",
   "devDependencies": {
     "babel-core": "^6.26.3",
     "babel-loader": "7",
