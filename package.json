@@ -6,7 +6,8 @@
   "scripts": {
     "clean": "rm -rf dist && webpack --mode production",
     "build": "webpack --mode production",
-    "start": "webpack-dev-server --config ./webpack.config.js --mode development",
+    "start": "echo \"start dist/index.html\" && webpack-dev-server --config ./webpack.config.js --mode development",
+    "dev": "echo \"start public/index.html\" && webpack-dev-server --config ./webpack.config.dev.js --mode development",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": "git+https://github.com/Dev-JeromeBaek/awesome-react-basic-skeleton.git",
