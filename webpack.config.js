@@ -1,4 +1,5 @@
 var path = require('path');
+var webpack = require('webpack');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const UglifyJSPlugin = require('uglifyjs-webpack-plugin');
 
@@ -75,5 +76,6 @@ module.exports = {
       template: './public/index.html',
     }),
     new UglifyJSPlugin(),
+    new webpack.HotModuleReplacementPlugin(),
   ],
 };

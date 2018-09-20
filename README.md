@@ -20,6 +20,9 @@ npm run start
 # build for production with minification
 npm run build
 
+# serve with hot reload dev-server at 0.0.0.0
+npm run dev
+
 # remove build files and build for production with minification.
 npm run clean
 ```
@@ -35,6 +38,9 @@ yarn start
 
 # build for production with minification
 yarn build
+
+# serve with hot reload dev-server at 0.0.0.0
+yarn dev
 
 # remove build files and build for production with minification.
 yarn clean

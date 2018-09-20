@@ -1,4 +1,5 @@
 var path = require('path');
+var webpack = require('webpack');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const UglifyJSPlugin = require('uglifyjs-webpack-plugin');
 
@@ -46,7 +47,7 @@ module.exports = {
     host: '0.0.0.0',
     contentBase: './public',
     compress: true,
-    // hot: true,
+    hot: true,
     inline: true,
     port: 9009,
     open: true,
@@ -65,5 +66,6 @@ module.exports = {
       template: './public/index.html',
     }),
     new UglifyJSPlugin(),
+    new webpack.HotModuleReplacementPlugin(),
   ],
 };
