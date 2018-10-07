@@ -32,7 +32,7 @@ module.exports = {
           limit: 10000,
           name: '[name].[ext]?[Hash]',
           // name: '[name].[ext]',
-          outputPath: './images/',
+          // outputPath: './images/',
         },
       },
       {
@@ -40,7 +40,7 @@ module.exports = {
         loader: 'file-loader',
         options: {
           name: '[name].[ext]',
-          outputPath: './fonts/',
+          // outputPath: './fonts/',
         },
       },
     ],
