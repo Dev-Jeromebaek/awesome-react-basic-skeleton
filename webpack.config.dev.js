@@ -45,7 +45,7 @@ module.exports = {
   },
   devServer: {
     host: '0.0.0.0',
-    contentBase: './public',
+    contentBase: './dist',
     compress: true,
     hot: true,
     inline: true,
@@ -62,7 +62,7 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      favicon: './public/favicon.ico',
+      favicon: './favicon.ico',
       template: './public/index.html',
     }),
     new UglifyJSPlugin(),

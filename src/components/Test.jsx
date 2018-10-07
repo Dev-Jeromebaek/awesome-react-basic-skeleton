@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-class Test1 extends Component {
+class Test extends Component {
   render() {
     return <div>test JSX</div>;
   }

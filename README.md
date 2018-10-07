@@ -1,6 +1,6 @@
 # React-Basic-Skeleton
 
-# Set Up React, Webpack 4, and Babel (2018)
+## Set Up React, Webpack 4, and Babel 6 (2018)
 
 ## Demo
 
@@ -17,13 +17,13 @@ npm install
 # serve with hot reload at 0.0.0.0
 npm run start
 
-# build for production with minification
+# build for production with minification.
 npm run build
 
 # serve with hot reload dev-server at 0.0.0.0
 npm run dev
 
-# remove build files and build for production with minification.
+# remove previous build files and build for production with minification.
 npm run clean
 ```
 
@@ -36,13 +36,13 @@ yarn install
 # serve with hot reload at 0.0.0.0
 yarn start
 
-# build for production with minification
+# build for production with minification.
 yarn build
 
 # serve with hot reload dev-server at 0.0.0.0
 yarn dev
 
-# remove build files and build for production with minification.
+# remove previous build files and build for production with minification.
 yarn clean
 ```
 
@@ -70,12 +70,22 @@ yarn clean
 }
 ```
 
-<!--
 ## How to make your react project
+
+npm
+
+- Fork and clone this repository.
+- Run `npm install` on your terminal.
+- Open `src/components` directory.
+- Make your component and Start your project.
+- Run `npm run build` or `npm run clean` on your terminal
+- Do setting for github.io hosting.
+
+yarn
 
 - Fork and clone this repository.
 - Run `yarn install` on your terminal.
-- Open `src/contents.js` on your text editor.
-- Edit and Add your contents
-- Run `yarn build` on your terminal
-- Do setting for github.io hosting. -->
+- Open `src/components` directory.
+- Make your component and Start your project.
+- Run `yarn build` or `yarn clean` on your terminal
+- Do setting for github.io hosting.

@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
-import Test from '../components/Test';
-import '../assets/stylesheets/css/style.css';
+import Test from './Test';
+import '../assets/css/style.css';
 import image from '../assets/images/image.png';
 
 class App extends Component {

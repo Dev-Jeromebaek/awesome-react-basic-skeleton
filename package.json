@@ -1,13 +1,13 @@
 {
-  "name": "awesome-react-skeleton",
+  "name": "awesome-react-basic-skeleton",
   "version": "1.0.0",
   "description": "# No Create-React-App",
   "main": "index.js",
   "scripts": {
     "clean": "rm -rf dist && webpack --mode production",
     "build": "webpack --mode production",
-    "start": "echo \"start dist/index.html\" && webpack-dev-server --config ./webpack.config.js --mode development",
-    "dev": "echo \"start public/index.html\" && webpack-dev-server --config ./webpack.config.dev.js --mode development",
+    "start": "echo \"start /index.html\" && webpack-dev-server --config ./webpack.config.js --mode development",
+    "dev": "echo \"start dist/index.html\" && webpack-dev-server --config ./webpack.config.dev.js --mode development",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": "git+https://github.com/Dev-JeromeBaek/awesome-react-basic-skeleton.git",
