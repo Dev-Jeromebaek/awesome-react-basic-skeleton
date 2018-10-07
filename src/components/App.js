@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 
 import Test from './Test';
 import '../assets/css/style.css';
-import image from '../assets/images/image.png';
 
 class App extends Component {
   render() {
@@ -10,7 +9,7 @@ class App extends Component {
     return (
       <div>
         <div className="hello">{title}</div>
-        <img src={image} />
+        <img src="src/assets/images/image.png" />
         <Test />
       </div>
     );
