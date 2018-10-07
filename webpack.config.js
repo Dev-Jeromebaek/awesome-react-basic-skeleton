@@ -30,9 +30,9 @@ module.exports = {
         loader: 'url-loader',
         options: {
           limit: 10000,
-          // name: '[name].[ext]?[Hash]',
-          name: '[name].[ext]',
-          outputPath: 'src/assets/images/',
+          name: '[name].[ext]?[Hash]',
+          // name: '[name].[ext]',
+          outputPath: './images/',
         },
       },
       {
@@ -40,7 +40,7 @@ module.exports = {
         loader: 'file-loader',
         options: {
           name: '[name].[ext]',
-          outputPath: 'src/assets/fonts/',
+          outputPath: './fonts/',
         },
       },
     ],
