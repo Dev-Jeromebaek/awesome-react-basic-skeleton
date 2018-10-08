@@ -1,5 +1,5 @@
-var path = require('path');
-var webpack = require('webpack');
+const path = require('path');
+const webpack = require('webpack');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const UglifyJSPlugin = require('uglifyjs-webpack-plugin');
 
@@ -21,7 +21,8 @@ module.exports = {
         loader: 'url-loader',
         options: {
           limit: 10000,
-          name: '[name].[ext]?[Hash]',
+          name: 'static/media/[name].[hash:8].[ext]',
+          // name: '[name].[ext]',
           // outputPath: './images/',
         },
       },
@@ -29,7 +30,7 @@ module.exports = {
         test: /\.(woff|woff2|eot|ttf|otf)$/,
         loader: 'file-loader',
         options: {
-          name: '[name].[ext]',
+          name: 'static/media/[name].[hash:8].[ext]',
           // outputPath: './fonts/',
         },
       },
