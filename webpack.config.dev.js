@@ -22,8 +22,6 @@ module.exports = {
         options: {
           limit: 10000,
           name: 'static/media/[name].[hash:8].[ext]',
-          // name: '[name].[ext]',
-          // outputPath: './images/',
         },
       },
       {
@@ -31,7 +29,6 @@ module.exports = {
         loader: 'file-loader',
         options: {
           name: 'static/media/[name].[hash:8].[ext]',
-          // outputPath: './fonts/',
         },
       },
     ],
@@ -41,7 +38,7 @@ module.exports = {
   },
   output: {
     path: path.resolve(__dirname, 'dist'),
-    publicPath: '/',
+    publicPath: '/awesome-react-basic-skeleton/',
     filename: 'bundle.js',
   },
   devServer: {
