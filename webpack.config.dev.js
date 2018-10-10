@@ -39,7 +39,7 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, 'dist'),
     publicPath: '/awesome-react-basic-skeleton/',
-    filename: 'bundle.js',
+    filename: 'static/js/bundle.js',
   },
   devServer: {
     host: '0.0.0.0',
@@ -60,7 +60,7 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      favicon: './favicon.ico',
+      favicon: './public/favicon.ico',
       template: './public/index.html',
     }),
     new UglifyJSPlugin(),

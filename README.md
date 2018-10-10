@@ -6,6 +6,44 @@
 
 > https://Dev-JeromeBaek.github.io/awesome-react-basic-skeleton/
 
+## Folder Structure
+
+After creation, your project should look like this:
+
+```
+awesome-react-redux-skeleton/
+  README.md
+  .prettierrc
+  package.json
+  webpack.config.dev.js
+  webpack.config.js
+  static/
+    js/
+      bundle.js
+    media/
+      image.afa5b8b9.png
+  public/
+    index.html
+    favicon.ico
+  src/
+    assets/
+      css/
+        style.css
+      images/
+        image.png
+    components/
+      App.js
+      Test.jsx
+    index.js
+  index.html
+  favicon.ico
+```
+
+For the project to build, **these files must exist with exact filenames**:
+
+- `public/index.html` is the page template;
+- `src/index.js` is the JavaScript entry point.
+
 ## Build Setup
 
 npm
