@@ -16,22 +16,12 @@ module.exports = {
         test: /\.css$/,
         use: ['style-loader', 'css-loader'],
       },
-      // {
-      //   test: /\.(png|svg|jpe?g|gif)$/,
-      //   loader: 'file-loader',
-      //   options: {
-      //     name: '[Hash].[ext]',
-      //     // name: '[name].[ext]',
-      //     outputPath: 'images/'
-      //   }
-      // },
       {
         test: /\.(png|svg|jpe?g|gif)$/,
         loader: 'url-loader',
         options: {
           limit: 10000,
           name: 'static/media/[name].[hash:8].[ext]',
-          // outputPath: './images/',
         },
       },
       {
@@ -39,7 +29,6 @@ module.exports = {
         loader: 'file-loader',
         options: {
           name: 'static/media/[name].[hash:8].[ext]',
-          // outputPath: './fonts/',
         },
       },
     ],
