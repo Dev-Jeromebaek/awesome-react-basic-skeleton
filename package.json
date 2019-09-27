@@ -44,7 +44,7 @@
   },
   "dependencies": {
     "react": "^16.4.2",
-    "react-dom": "^16.4.2"
+    "react-dom": "^16.10.0"
   },
   "browserslist": [
     ">0.2%",
