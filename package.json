@@ -43,7 +43,7 @@
     "webpack-dev-server": "^3.1.6"
   },
   "dependencies": {
-    "react": "^16.4.2",
+    "react": "^16.10.1",
     "react-dom": "^16.4.2"
   },
   "browserslist": [
